@@ -24,7 +24,7 @@
   <div class="boxCenterList RelaArticle clearfix">
     <!--{foreach from=$cat_list item=cat}-->
             <div style="white-space:nowrap; padding-left:{$cat.level*2}em;
-              {if $cat.has_children eq 0}float:left;padding-left: 1em;{else}clear:both;font-weight:bold;padding-top: 10px;{/if}
+              {if $cat.has_children eq 0}float:left;padding-left: 1em;{else}clear:both;font-weight:bold;padding-top: 10px;{/if}color:#000;
               "><a href="{$cat.url}">{$cat.cat_name}({$cat.goods_num})</a></div>
             <!--{/foreach}-->
 

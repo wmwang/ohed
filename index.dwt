@@ -67,8 +67,8 @@ function reg(str){
 <div class="gonggao_box box_1"> 
 
 <div class="ff_1 ">
-    <h2 id="ECS_tree1" class=" tabFront" style=" border-right:1px solid #d5d5d5; width:119px;  ">最新动态</h2>
-    <h2 id="ECS_tree2" class=" tabBack" style=" ">调价公告</h2>
+    <h2 id="ECS_tree1" class=" tabFront" style=" border-right:1px solid #d5d5d5; width:119px;  ">最新動態</h2>
+    <h2 id="ECS_tree2" class=" tabBack" style=" ">調價公告</h2>
 </div>   
 <div style="clear:both"></div>
 <div id="ECS_tree1_BODY" style="">
