@@ -334,7 +334,7 @@ background-color: transparent;
 
 
 #mainNav { float:left;margin-top: -3px;}
-#mainNav .a1 {float:left; font-size:22px; font-family:isosoman;   color:#000;  text-decoration:none;line-height:36px; padding:0 1em;}
+#mainNav .a1 {float:left; font-size:22px; font-family:isosoman;   color:#000;  text-decoration:none;line-height:36px; padding:0 0.5em;}
 
 #mainNav .u1 .submenu{ display:none}
 #mainNav .u1 {height:30px;line-height:30x;float:left;position:relative;z-index:999; padding:0px;}
