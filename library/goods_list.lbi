@@ -160,14 +160,10 @@
     
       
     <div class="div2 clearfix">
-    
-    <span>產地：法國</span> 
-    <span>產地：法國</span>
-    <span>產地：法國</span>
-    <span>產地：法國</span>
-    <span>產地：法國</span>
-    <span>產地：法國</span>
-    <span>產地：法國</span>
+
+    <span>商品簡介  </span> 
+    <span>{$goods.goods_brief}</span>
+
     
     </div>
     

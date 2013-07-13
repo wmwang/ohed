@@ -14,7 +14,7 @@ Logo filename: logo.gif
 ==================== */
 @font-face {
   font-family:isosoman;
-  src:url("DFZongYiStd-W5001.otf") format("opentype"); 
+  src:url("litonha.ttf") format("opentype"); 
 }
 body{ 
 background-attachment: fixed;
@@ -129,7 +129,7 @@ visibility:hidden;
   
   
   
-  .boxCenterList{padding:5px;}
+  .boxCenterList{padding:5px;font-size: 2.6em}
   
   .art{ padding:3px 1 0px;}
   .art a{ display:block; height:33px; line-height:33px; background:url(images/biao5.gif) 0 15px no-repeat; overflow:hidden; padding-left:15px; border-top:1px solid #b4b4b4 }
@@ -483,7 +483,7 @@ background-color: transparent;
 ==================== */
 
 
-.shuxin { background:url(images/shuxin_bg.gif) repeat-y; float:left; }
+.shuxin { background:url(images/shuxin_bg.gif) repeat-y; float:left;font-size: 0.5em }
  .shuxin div{ float:left; width:212px; padding-left:30px; height:23px;line-height:23px;}
 
 

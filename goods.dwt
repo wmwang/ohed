@@ -463,7 +463,7 @@ changePrice();
         <div class="blank"></div>
        
         
-        <div class="tishi" style=" line-height:25px;">
+        <div class="tishi" style=" line-height:1em;">
        <img src="images/goods_3.gif" />
          <div class="blank"></div>
         
