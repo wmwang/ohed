@@ -399,7 +399,7 @@ changePrice();
         <h2 class="h2bg">如何購買</h2>
         <h2 class="h2bg"  >配送方式</h2>
    
-  <h2 class="h2bg"  >購買記錄</h2>
+ <!-- <h2 class="h2bg"  >購買記錄</h2>-->
 
      
            </div>

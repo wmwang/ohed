@@ -51,7 +51,7 @@ function reg(str){
 <div class="block">
  
 
-<div class="f_l" style="width:728px;">
+<div class="f_l" >
     <!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
  
  
@@ -59,7 +59,7 @@ function reg(str){
  
   
 </div> 
-<div class="f_r" style="width:250px; _overflow:hidden">
+<div class="f_r" style="; _overflow:hidden">
  
  
 

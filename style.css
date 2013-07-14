@@ -14,7 +14,7 @@ Logo filename: logo.gif
 ==================== */
 @font-face {
   font-family:isosoman;
-  src:url("litonha.ttf") format("opentype"); 
+  src:url("DFZongYiStd-W5001.otf") format("opentype"); 
 }
 body{ 
 background-attachment: fixed;
@@ -129,7 +129,7 @@ visibility:hidden;
   
   
   
-  .boxCenterList{padding:5px;font-size: 2.6em}
+  .boxCenterList{padding:5px;}
   
   .art{ padding:3px 1 0px;}
   .art a{ display:block; height:33px; line-height:33px; background:url(images/biao5.gif) 0 15px no-repeat; overflow:hidden; padding-left:15px; border-top:1px solid #b4b4b4 }
@@ -334,7 +334,7 @@ background-color: transparent;
 
 
 #mainNav { float:left;margin-top: -3px;}
-#mainNav .a1 {float:left; font-size:22px; font-family:isosoman;   color:#000;  text-decoration:none;line-height:36px; padding:0 0.5em;}
+#mainNav .a1 {float:left; font-size:22px; font-family:isosoman;   color:#000;  text-decoration:none;line-height:36px; padding:0 27px;}
 
 #mainNav .u1 .submenu{ display:none}
 #mainNav .u1 {height:30px;line-height:30x;float:left;position:relative;z-index:999; padding:0px;}
@@ -483,7 +483,7 @@ background-color: transparent;
 ==================== */
 
 
-.shuxin { background:url(images/shuxin_bg.gif) repeat-y; float:left;font-size: 0.5em }
+.shuxin { background:url(images/shuxin_bg.gif) repeat-y; float:left; }
  .shuxin div{ float:left; width:212px; padding-left:30px; height:23px;line-height:23px;}
 
 
@@ -830,7 +830,7 @@ box-shadow: 0 0 0 0px #fff,
    /*相关文章(其它带有小三角点的文字列表共用)*/
    .RelaArticle a,.alone{background:url(images/bg.gif) no-repeat 0px -170px; padding:0px 0px 0px 10px; color:#3f3f3f; text-decoration:none;}
    .RelaArticle a:hover{background:url(images/bg.gif) no-repeat 0px -170px; padding:0px 0px 0px 10px; text-decoration:none;}
-   .RelaArticle a:link,a:visited{color: #000;}
+   
    .tit1{ height:41px;line-height:41px; background:url(images/tit1.gif) repeat-x}   
    .best_box{  position:relative;}
    .best_box .biao{ position: absolute; left:0; top:0; _top:1px}
@@ -1015,7 +1015,7 @@ box-shadow: 0 0 0 0px #fff,
    #goodsInfo{ background-color: rgba(255,255,255,0.5); border:1px solid #b6b6b6; padding:6px;
    border: px dashed #666;
    border-radius: 10px;
-   box-shadow: 0 0 0 3px #fff, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
    text-shadow: -1px -1px #fff;
    font-weight: normal;}
    
@@ -1775,7 +1775,3 @@ box-shadow: rgba(255, 255, 255, 0.0980392) 0px 1px 0px, rgba(0, 0, 0, 0.247059) 
 .tishi{
   font-size: 1.6em; 
 }
-#TextDiv2 a,pre{color:#000;}
-#TextDiv2 a:link,a:visited {color:#000;}
-#TextDiv2 a:hover,a:active { color:#fff;}
-#TextDiv2 li{height:30px;font-size:20px;}
