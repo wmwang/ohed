@@ -33,6 +33,7 @@ a:hover{ color:#af0102; text-decoration:none}
   width:983px; height:auto;
 }
 .f_l{float:left;
+  box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5); 
 }
 .f_l_down{
 margin-top: 3px;
@@ -79,7 +80,7 @@ visibility:hidden;
   .f4{color:#cc0000;}
   .f4_b{color:#cc0000; font-weight:bold;}
   .f5{ font-size:14px; font-weight:bold;}
-  .f6{color:#af0102;}
+  .f6{color:#af0102;font-size: 2em}
   .market{ font-size:14px; color:#000; padding-left:10px;}
   .market del{ font-family: "微軟正黑"}
   .shop{color:#cc0000; font-size:14px; font-weight:600;}
@@ -117,7 +118,7 @@ visibility:hidden;
   background-color:#edf8fe;  overflow:hidden;
   }
   
-   .box_3{padding-bottom:10px;padding-top: 10px;  
+   .box_3{padding-bottom:0px;padding-top: 0px;  
     border:1px solid #fff;
    background-color: rgba(28,17,3,0.852941); border-top:3px solid #FFF;
     
@@ -221,7 +222,10 @@ h3.h3_2 span {   font-size: 14px; font-weight: bold;height: 31px; line-height: 3
 
 
 
-.gundong_box{ border:0px solid #FFF; border-top:0px  dashed #111111; background:#FFFFFF; float:left; position:relative  }
+.gundong_box{ 
+  border:0px solid #FFF; border-top:0px  dashed #111111;
+   background:#FFFFFF; float:left; position:relative  ;
+ box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);}
 .gundong_box .tit span{ float:left}
 
 .gundong_box .tit { text-align:right; height:27px; line-height:27px; border-bottom:1px solid #b4b4b4; padding:0 10px;}
@@ -419,8 +423,9 @@ background-color: transparent;
   #category_tree_index{ background-color: rgba(28,17,3,0.852941); 
     width:710px;  ;
    border-radius: 0px;
+   border-top: 3px solid #000;
    }
-  #category_tree_index ul{color: #000  }
+  #category_tree_index ul{color: #000; border-top:3px solid #000; }
   
   
  #category_tree_index dl { height:2.6em; 
@@ -696,7 +701,7 @@ box-shadow: 0 0 0 0px #fff,
 		.goodsItem2 { width:32.8%; margin: 0px;background-color: rgba(255,255,255,1)}
 		.goodsItem2 .name{text-align:center;}
 		.goodsItem2 .market{ font-size:14px; color:#000; padding-left:0px;}
-		
+		  
 		
 		
 		.goodsItem3 { width:161px; padding:5px 1px 10px 1px; background:#FFFFFF; font-family:"宋体"; font-size:12px; color:#696969}
@@ -1016,7 +1021,7 @@ box-shadow: 0 0 0 0px #fff,
    border: px dashed #666;
    border-radius: 10px;
    box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
-   text-shadow: -1px -1px #fff;
+   text-shadow: -0px -0px #fff;
    font-weight: normal;}
    
    #goodsInfo .imgInfo{ position:relative; float:left; width:280px;
@@ -1068,10 +1073,17 @@ box-shadow: 0 0 0 0px #fff,
    
    
    
-   #goodsInfo .textInfo{font-family: isosoman; font-size:26px; background-color: rgba(255,255,255,0.5); width:680px; float:right; color:#666; overflow:hidden;  }
+   #goodsInfo .textInfo{font-family: isosoman; 
+    font-size:1.2em; width:680px;
+     float:right; color:#666; overflow:hidden;
+     box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
+}
+      }
    #goodsInfo .textInfo p{font-size:18px;  padding:0 5px 5px 8px; font-weight:bold}
-   #goodsInfo .textInfo ul{ border-top:1px solid #ccc; padding-left:10px;}
-   #goodsInfo .textInfo li{padding:0px; _height:1%; height:32px; line-height:32px;  }
+   #goodsInfo .textInfo ul{ border-top:1px solid #ccc; padding-left:10px;
+    border-top: 1px solid #ccc;}
+   #goodsInfo .textInfo li{padding:0px; _height:1%; height:32px; line-height:32px; 
+   background: url(images/lineBg.gif) repeat-x left bottom; }
    #goodsInfo .textInfo strong{ font-weight:normal}
    #goodsInfo .textInfo .shop{    color:#cc0000; font-size:26px; font-family:"微軟正黑"; vertical-align:middle; font-weight:600;} 
    #goodsInfo .textInfo li.padd{padding:7px 0px 7px 0; }
@@ -1661,11 +1673,11 @@ box-shadow: 0 0 0 0px #fff,
 	}
 
  
-	.h3_2{ height:2em;line-height:2em; color:#333;   
+	.h3_2{ height:3.6em;line-height:2em; color:#333;   
     padding:0; }
  
 	
-.h3_2 dl{ float:left; line-height:31px; padding-top:2px;}	
+.h3_2 dl{ float:left; line-height:2em; padding-top:2px;}	
 .h3_2 img{ } 
 .h3_2 dt{ float:left; line-height:31px; color:#000; padding-left:15px;  }		
 	

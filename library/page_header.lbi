@@ -12,7 +12,7 @@
  <script src="themes/ohed/js/MSClass.js"></script> 
 <SCRIPT type=text/javascript src="themes/ohed/js/transport.js"></SCRIPT>
  
-
+<link href="themes/ohed/flat-ui.css" rel="stylesheet" type="text/css"/>
 
 
 
@@ -228,7 +228,10 @@ onClick="window.external.AddFavorite(location.href,document.title);"> <img src="
   font-family: DFTsaiStd-W3;
   src:url("themes/ohed/images/DFTsaiStd-W3.otf") format("opentype");
 }
-
+#TextDiv2 a,pre{color:#000;}
+#TextDiv2 a:link,a:visited {color:#fff;}
+#TextDiv2 a:hover,a:active { color:#fff;}
+#TextDiv2 li{height:30px;font-size:20px;}
 </style>
 <div class="block">
  <div id="ur_here">
