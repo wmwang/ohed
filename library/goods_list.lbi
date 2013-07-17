@@ -1,4 +1,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="themes/ohed/css/default.css" />
+<link rel="stylesheet" type="text/css" href="themes/ohed/css/component.css" />
+<script src="themes/ohed/js/modernizr.custom.js"></script>
 <div class="box_3">
   <div class="h3_2">
 
@@ -225,42 +229,38 @@ buyNumber{$smarty.foreach.no.iteration}.goodNumber(num);
     <!--{/foreach}-->
     </div>
     <!-- {elseif $pager.display == 'grid'} -->
-    <div class="clearfix goodsBox" style="border:none;">
+    <ul class="cbp-ig-grid" style="border:none;">
     <!--{foreach from=$goods_list item=goods name=no}-->
     <!-- {if $goods.goods_id} -->
-     <div class="goodsItem goodsItem2 "   <!--{if $smarty.foreach.no.index mod 3 eq 0}--><!--{else}-->  <!--{/if}-->>
-           <a href="{$goods.url}"><img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" class="goodsimg" /></a> 
+     <li class=" "   <!--{if $smarty.foreach.no.index mod 3 eq 0}--><!--{else}-->  <!--{/if}-->>
+           <a href="{$goods.url}">
+           <div class="cbp-ig-icon "><img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" class="goodsimg" /></div> 
           
-          <div class="blank5"></div>
-             <p class="name f1"><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.goods_name}</a></p>
+          
+             <p class="cbp-ig-title">{$goods.goods_name}</p>
                <!-- {if $show_marketprice} -->
-          市場價：<font class="market"><del>{$goods.market_price}</del></font> 
+           
           <!-- {/if} -->
           
           <br/>
              
              
          <!--{if $goods.promote_price neq "" } -->
-         歐傑價：<font class="f1">{$goods.promote_price}</font><!--{else}--><font class="f1">{$goods.shop_price}</font>
+         歐傑價：<font class="f1">{$goods.promote_price}</font><!--{else}--><span class="cbp-ig-category">{$goods.shop_price}</span>
           <!--{/if}--> 
               <br/>
        <div class="blank"></div>
-       <div class="bottom blue">
-       <a href="javascript:addToCart({$goods.goods_id})"><font color="red">購買</font>
-       </div>
-       <div class="bottom gray">
-       <a href="javascript:collect({$goods.goods_id});" ><font>收藏</font>
-       </div>
-     
+       
+     </a>
           
-    </div>
+    </li>
     <!--{/if}-->
     
     
     
     
     <!--{/foreach}-->
-    </div>
+    </ul>
     <!-- {elseif $pager.display == 'text'} -->
     <div class="goodsList">
     <!--{foreach from=$goods_list item=goods}-->
