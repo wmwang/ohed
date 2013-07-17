@@ -9,10 +9,10 @@
 ?>
 
  
- <script src="themes/ohed/js/MSClass.js"></script> 
-<SCRIPT type=text/javascript src="themes/ohed/js/transport.js"></SCRIPT>
+ <script src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/MSClass.js"></script> 
+<SCRIPT type=text/javascript src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/transport.js"></SCRIPT>
  
-<link href="themes/ohed/flat-ui.css" rel="stylesheet" type="text/css"/>
+
 
 
 
