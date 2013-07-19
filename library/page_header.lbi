@@ -11,6 +11,9 @@
  
  <script src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/MSClass.js"></script> 
 <SCRIPT type=text/javascript src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/transport.js"></SCRIPT>
+<link rel="stylesheet" type="text/css" href="themes/ohed/css/default.css" />
+<link rel="stylesheet" type="text/css" href="themes/ohed/css/component.css" />
+<script src="themes/ohed/js/modernizr.custom.js"></script>
  
 
 
@@ -109,6 +112,7 @@ onClick="window.external.AddFavorite(location.href,document.title);"> <img src="
 
 
 
+
 <!--
 <img src="../images/tel.gif" />
 
@@ -120,8 +124,7 @@ onClick="window.external.AddFavorite(location.href,document.title);"> <img src="
  
 
 </div>
- 
- 
+
  
  
  
@@ -234,6 +237,7 @@ onClick="window.external.AddFavorite(location.href,document.title);"> <img src="
 #TextDiv2 li{height:30px;font-size:20px;}
 </style>
 <div class="block">
+   <!-- 
  <div id="ur_here">
  <div id="TextDiv2" style="width:460px;position:relative; top:0px; left:-10px;font-size:20px;font-family: isosoman ;border:1px solid #e81E28;text-align:left;height:30px;overflow:hidden;">
 <ul id="TextContent2">
@@ -259,6 +263,7 @@ new Marquee(["TextDiv2","TextContent2"],0,1,980,60,20,1000,1000,60) ;
 
 
 </div>
+-->
 <div class="blank"></div>
  
 

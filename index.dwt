@@ -12,6 +12,7 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="themes/ohed/flat-ui.css" rel="stylesheet" type="text/css" />
 <link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
 {* 包含脚本文件 *}
 {insert_scripts files='common.js,index.js'}
@@ -42,6 +43,9 @@ function reg(str){
 }
 
 </script>
+<script type="text/javascript" src="http://www.davidpai.tw/demo/20121127/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://www.davidpai.tw/demo/20121127/js/jquery.textslider.min.js"></script>
+
 </head>
 <body>
 
@@ -52,6 +56,8 @@ function reg(str){
  
 
 <div class="f_l" >
+  <p align=center><embed src=http://hsw00.com/WaterMark/LED1.swf?w=8&s=6&t=全台最便宜最方便塑膠袋製造工廠 pluginspage=http://www.macromedia.com/go/getflashplayer type=application/x-shockwave-flash width=710 height=88 quality=high wmode=transparent></p>
+
     <!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
  
  
@@ -59,7 +65,7 @@ function reg(str){
  
   
 </div> 
-<div class="f_r" style="; _overflow:hidden">
+<div class="f_r_down" style="; _overflow:hidden">
  
  
 

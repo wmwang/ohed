@@ -136,4 +136,28 @@
  <div class="blank"></div>
  <div class="blank"></div>
  <div class="blank"></div>
- 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/themes/ohed/js/jquery.cbpContentSlider.min.js"></script>
+    <script>
+      $(function() {
+        /*
+        - how to call the plugin:
+        $( selector ).cbpContentSlider( [options] );
+        - options:
+        {
+          // default transition speed (ms)
+          speed : 500,
+          // default transition easing
+          easing : 'ease-in-out',
+          // current item's index
+          current : 0
+        }
+        - destroy:
+        $( selector ).cbpContentSlider( 'destroy' );
+        */
+
+        $( '#cbp-contentslider' ).cbpContentSlider();
+      });
+    </script>
+    <p align=center><embed src=http://hsw00.com/WaterMark/LED1.swf?w=3&s=15&t=恭賀新禧 pluginspage=http://www.macromedia.com/go/getflashplayer type=application/x-shockwave-flash width=682 height=88 quality=high wmode=transparent></p>
+    

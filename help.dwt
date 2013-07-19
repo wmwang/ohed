@@ -86,5 +86,29 @@
 </div>
 <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
 </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="themes/ohed/js/jquery.cbpQTRotator.min.js"></script>
+    <script>
+      $( function() {
+        /*
+        - how to call the plugin:
+        $( selector ).cbpQTRotator( [options] );
+        - options:
+        {
+          // default transition speed (ms)
+          speed : 700,
+          // default transition easing
+          easing : 'ease',
+          // rotator interval (ms)
+          interval : 8000
+        }
+        - destroy:
+        $( selector ).cbpQTRotator( 'destroy' );
+        */
+
+        /*$( '#cbp-qtrotator' ).cbpQTRotator();*/
+
+      } );
+    </script>
 </body>
 </html>

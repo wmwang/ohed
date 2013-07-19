@@ -32,8 +32,8 @@ a:hover{ color:#af0102; text-decoration:none}
 .block{
   width:983px; height:auto;
 }
-.f_l{float:left;
-  box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5); 
+.f_l{float:left;width: 710px;
+  
 }
 .f_l_down{
 margin-top: 3px;
@@ -41,11 +41,11 @@ margin-top: 3px;
 width: 710px;
 border: 0px solid #fff;
 border-radius: 0px;
-box-shadow: 0 0 0 0px #fff, 
-      2px 2px 6px 4px rgba(10, 10, 0, 0.5), 
-   -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
+  
+   box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5); 
 }
 .f_r{float:right;}
+.f_r_down{float:right;width: 210px;}
 .tl{ tex t-align:left;}
 .tc{ text-align:center;}
 .tr{ text-align:right;}
@@ -306,7 +306,7 @@ background-color: transparent;
   .top_nav{ height:31px; line-height:31px; background:url(images/top_line.gif) 0 0 repeat-x}
   .top_nav .f_r{ float:right; padding:0 20px; padding-right:120px; height:28px; line-height:28px; _padding-top:5px; _height:23px; 
     background: #2C3E50; border-bottom:3px solid #d6dcda}
-  .top_nav a{ color:#16a085;font-size: 1.2em}
+  .top_nav a{ color:#16a085;font-size: 0.8em}
   .top_nav img{ vertical-align:middle; padding:0 6px;}
    .top_nav .block{ position: relative} 
     .top_nav .link{ position: absolute; right:0; top:0;}
@@ -741,7 +741,7 @@ box-shadow: 0 0 0 0px #fff,
   }
 
 
-.helpTitBg dt{font-size:2em ;font-weight:bolder; color:#111111; text-decoration:none}
+.helpTitBg dt{font-size:1.2em ;font-weight:bolder; color:#111111; text-decoration:none}
 
 
 
