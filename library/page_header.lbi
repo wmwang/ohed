@@ -9,11 +9,10 @@
 ?>
 
  
- <script src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/MSClass.js"></script> 
-<SCRIPT type=text/javascript src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/transport.js"></SCRIPT>
-<link rel="stylesheet" type="text/css" href="themes/ohed/css/default.css" />
-<link rel="stylesheet" type="text/css" href="themes/ohed/css/component.css" />
-<script src="themes/ohed/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/MSClass.js"></script> 
+<script type="text/javascript" src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/transport.js"></script>
+
+<script type="text/javascript" src="themes/ohed/js/modernizr.custom.js"></script>
  
 
 
@@ -32,6 +31,7 @@
 </div>
 -->
 <script type="text/javascript">
+//<![CDATA[
   window.setInterval("floatQQdone()",1);
   lastScrollY=0;
   function floatQQdone()
@@ -51,6 +51,7 @@
 	lastScrollY=lastScrollY+percent; 
 	//alert(lastScrollY);
   }
+  //]]>
 </script>
 <script type="text/javascript">
 var process_request = "{$lang.process_request}";
@@ -66,19 +67,19 @@ var process_request = "{$lang.process_request}";
 
 <div class="f_r">
 <a style="cursor: pointer"  
-onClick="window.external.AddFavorite(location.href,document.title);"> <img src="../images/top1.gif"> 收藏歐傑商城</a>  
+onclick="window.external.AddFavorite(location.href,document.title);"> <img src="../images/top1.gif" alt="收藏歐傑商城"/> 收藏歐傑商城</a>  
 
  {insert_scripts files='utils.js'}
-   <font id="ECS_MEMBERZONE"><img src="../images/top2.gif"> {* ECSHOP 提醒您：根據用戶id來調用member_info.lbi顯示不同的界面  *}{insert name='member_info'} </font>
+   <font id="ECS_MEMBERZONE"><img src="../images/top2.gif" alt=""/> {* ECSHOP 提醒您：根據用戶id來調用member_info.lbi顯示不同的界面  *}{insert name='member_info'} </font>
 
 
-<a href="#"><img src="../images/top3.gif"> 幫助中心</a>  
+<a href="#"><img src="../images/top3.gif" alt="幫助中心"/> 幫助中心</a>  
 
 
 
  
 <span  id="ECS_CARTINFO">
-<a href="flow.php"><img src="../images/top4.gif"> {insert name='cart_info'}</a>
+<img src="../images/top4.gif" alt="flow"/> {insert name='cart_info'}
 </span>
 
 
@@ -90,8 +91,8 @@ onClick="window.external.AddFavorite(location.href,document.title);"> <img src="
 
 
 <div class="link">
-<a href="#"><img src="../images/link1.gif"></a>
-<a href="#"><img src="../images/link2.gif"></a>
+<a href="#"><img src="../images/link1.gif" alt="link1"/></a>
+<a href="#"><img src="../images/link2.gif" alt="link2"/></a>
 </div>
 
 </div>
@@ -107,7 +108,7 @@ onClick="window.external.AddFavorite(location.href,document.title);"> <img src="
 <div class="block  " style=" height:84px;">
  <div class="f_l" style=" padding-top:7px;">
  <a href="../index.php" name="top">
-  <img style="float:left" src="../images/logo.png" /></a> 
+  <img style="float:left" src="../images/logo.png" alt="logo"/></a> 
  <!-- <div class="btn btn-large btn-block btn-dangerForlogo">寶新制袋</div>-->
 
 
@@ -129,7 +130,7 @@ onClick="window.external.AddFavorite(location.href,document.title);"> <img src="
  
  
  
- <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()" class="f_r" >
+ <form id="searchForm" name="searchForm" method="get" action="search.php" onsubmit="return checkSearchForm()" class="f_r" >
  
    <input name="keywords" type="text" id="keyword" value="請輸入關鍵字..." onclick="javascript:this.value=''"class="B_input f_l"/>
  
