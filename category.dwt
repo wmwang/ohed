@@ -20,14 +20,10 @@
   <script src="themes/ohed/js/jquery_004.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="f_l">
-   
-  </div>
   <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
   <!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
 
   <div class="block clearfix">
-     
   <script type="text/javascript" src="themes/ohed/js/left_goodslist.js"></script>
   <!-- #BeginLibraryItem "/library/cate_best.lbi" --><!-- #EndLibraryItem -->
 
@@ -50,15 +46,15 @@
             <div class="btn btn-large btn-block btn-dangerForIndexTree">商品分類中心
             </div>
           </div>       
-  <div class="clearfix" style="margin-top:-1.6em; line-height:22px" >
+  <div class="clearfix" style="margin-top:-1.6em; line-height:22px">
         
          
    <a class="more" href="catalog.php"><img   src="../images/more.gif"></a>
   </div>
 
-      <img src="images/abc.gif" width=970 height=79 border=0 alt="abc.gif">  
+        
       
-  <div  id="category_tree_index" class="   box  clearfix"  style="display:none">
+  <div  id="category_tree_index" class="   box  clearfix">
 
         
       <?php

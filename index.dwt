@@ -19,7 +19,6 @@
 <script type="text/javascript" src="js/left_goodslist.js"></script>
 
 <script type="text/javascript">
-//<![CDATA[
 function $id(element) {
   return document.getElementById(element);
 }
@@ -42,12 +41,11 @@ function reg(str){
   $id(str+"_h").className="none";
   $id(str+"_v").innerHTML=$id(str+"_h").getElementsByTagName("blockquote")[0].innerHTML;
 }
-//]]>
+
 </script>
 <script type="text/javascript" src="http://www.davidpai.tw/demo/20121127/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="http://www.davidpai.tw/demo/20121127/js/jquery.textslider.min.js"></script>
-<link rel="stylesheet" type="text/css" href="themes/ohed/css/default.css"/>
-<link rel="stylesheet" type="text/css" href="themes/ohed/css/component.css"/>
+
 </head>
 <body>
 
@@ -58,7 +56,7 @@ function reg(str){
  
 
 <div class="f_l" >
-  <img src="images/gg.gif" width=710 height=79 border=0 alt="gg.gif">
+  <p align=center><embed src=http://hsw00.com/WaterMark/LED1.swf?w=8&s=6&t=全台最便宜最方便塑膠袋製造工廠 pluginspage=http://www.macromedia.com/go/getflashplayer type=application/x-shockwave-flash width=710 height=88 quality=high wmode=transparent></p>
 
     <!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
  
@@ -176,6 +174,40 @@ function reg(str){
 <div class="blank"></div>
 
 
+
+<div class="bottom_txt clearfix">
+
+<ul style="border-right:1px solid #b4b4b4">
+
+<li class="f_l">
+<!-- TemplateBeginEditable name="底部广告一" -->
+<!-- TemplateEndEditable -->
+</li>
+<li class="f_r">
+<!-- TemplateBeginEditable name="底部文章一" -->
+<!-- TemplateEndEditable -->
+</li>
+
+
+
+
+</ul>
+
+
+<ul>
+ 
+<li class="f_l">
+<!-- TemplateBeginEditable name="底部广告二" -->
+<!-- TemplateEndEditable -->
+</li>
+<li class="f_r">
+<!-- TemplateBeginEditable name="底部文章二" -->
+<!-- TemplateEndEditable -->
+</li>
+
+</ul>
+
+</div> 
 
 
     

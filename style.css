@@ -45,7 +45,7 @@ border-radius: 0px;
    box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5); 
 }
 .f_r{float:right;}
-.f_r_down{float:right;width: 265px;position: left}
+.f_r_down{float:right;width: 210px;}
 .tl{ tex t-align:left;}
 .tc{ text-align:center;}
 .tr{ text-align:right;}
@@ -338,7 +338,7 @@ background-color: transparent;
 
 
 #mainNav { float:left;margin-top: -3px;}
-#mainNav .a1 {float:left; font-size:22px; font-family:isosoman;   color:#fff;  text-decoration:none;line-height:36px; padding:0 27px;}
+#mainNav .a1 {float:left; font-size:22px; font-family:isosoman;   color:#000;  text-decoration:none;line-height:36px; padding:0 27px;}
 
 #mainNav .u1 .submenu{ display:none}
 #mainNav .u1 {height:30px;line-height:30x;float:left;position:relative;z-index:999; padding:0px;}

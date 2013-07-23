@@ -38,7 +38,7 @@ var process_request = "{$lang.process_request}";
 
 <div class="f_r">
 <a style="cursor: pointer"  
-onclick="window.external.AddFavorite(location.href,document.title);"> <img src="../images/top1.gif"> 收藏歐傑商城</a>  
+onClick="window.external.AddFavorite(location.href,document.title);"> <img src="../images/top1.gif"> 收藏歐傑商城</a>  
 
  {insert_scripts files='utils.js'}
    <font id="ECS_MEMBERZONE"><img src="../images/top2.gif"> {* ECSHOP 提醒您：根據用戶id來調用member_info.lbi顯示不同的界面  *}{insert name='member_info'} </font>
