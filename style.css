@@ -45,7 +45,7 @@ border-radius: 0px;
    box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5); 
 }
 .f_r{float:right;}
-.f_r_down{float:right;width: 210px;}
+.f_r_down{float:right;width: 265px;}
 .tl{ tex t-align:left;}
 .tc{ text-align:center;}
 .tr{ text-align:right;}
@@ -223,6 +223,7 @@ h3.h3_2 span {   font-size: 14px; font-weight: bold;height: 31px; line-height: 3
 
 
 .gundong_box{ 
+  font-size: 0.7em;
   border:0px solid #FFF; border-top:0px  dashed #111111;
    background:#FFFFFF; float:left; position:relative  ;
  box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);}
@@ -436,7 +437,7 @@ background-color: transparent;
  
  #category_tree_index dt{ width:6em; float:left; color:#000;
   padding-left: 0.1em;
-  border-right: 3px solid rgba(28, 17, 3, 0.852941);font-size: 1.8em}
+  border-right: 3px solid rgba(28, 17, 3, 0.852941);font-size: 1.1em}
  
  #category_tree_index .dl_on  dt{ background:#F39C12 0 0 no-repeat; color:#000}
  
@@ -444,10 +445,10 @@ background-color: transparent;
  #category_tree_index .dl_on  dt a{ color:#000}
  
  
- #category_tree_index dd{ float:left; width:30em; color:#121212; 
+ #category_tree_index dd{ float:left; color:#121212; 
   padding-left: 0.1em;
    height:2.6em;overflow:hidden}
-  #category_tree_index dd a{ color: #000;font-size: 1.6em;}
+  #category_tree_index dd a{ color: #000;font-size: 1em;}
 
   #category_tree_index dd a:hover{ color:#cc0000}
     #category_tree_index span{ background:#fff; color:#000; margin:0 3px;  padding:0 5px; float:left; height:22px; line-height:22px;}

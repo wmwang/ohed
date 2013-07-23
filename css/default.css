@@ -40,7 +40,7 @@
 	.clearfix:after { clear: both; }
 
 	body {
-	    font-family: 'Lato', Calibri, Arial, sans-serif;
+	    font-family:'微軟正黑體', 'Lato', Calibri, Arial, sans-serif;
 	    color: #47a3da;
 	}
 

@@ -572,7 +572,7 @@ h6 {
 .btn.btn-danger {
   background-color: #e74c3c;
   font-family: isosoman;
-  font-size: 1.6em;
+  font-size: 1em;
   width:  10em;
   float: left;
   margin-left: -27px;
@@ -583,7 +583,7 @@ h6 {
   background-color: #e74c3c;
   float: left;
   width: 7em;
-  font-size: 1.6em;
+  font-size: 1em;
   font-family: isosoman;
   text-align: left;
 }
