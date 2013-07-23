@@ -70,7 +70,7 @@ changePrice();
      <!--商品圖片和相冊 start-->
   <div class="imgInfo">
      <a style="position:relative" href="{$pictures.0.img_url}" id="1" class="MagicZoom MagicThumb" title="{$goods.goods_style_name}">
-      <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}" width="278px" height="278" style="border:1px solid #d2d0d0"/>
+      <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}" width="278px" height="278" style="border:0px solid #d2d0d0"/>
     
     </a>
        <a href="javascript:;" onclick="window.open('gallery.php?id={$goods.goods_id}'); return false;"><img src="images/fangda.gif" style="position:absolute; left:241px; z-index:999999999; top:241px;" /></a>
@@ -86,9 +86,9 @@ changePrice();
 <!-- TemplateEndEditable -->
      </div>
      <!--商品圖片和相冊 end-->
-     <div class="textInfo" style="padding-left:5px">
+     <div class="textInfo" style="">
      <form action="javascript:addToCart({$goods.goods_id})" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
-    <div class="clearfix" style="font-size:17px; font-family:'微軟雅黑';  padding-left:10px; color:#000 ; box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);">
+    <div class="header" style=" font-family:'微軟雅黑';  padding-left:10px; color:#000 ; border-bottom:1px solid #000;">
       {$goods.goods_style_name}
        </div>
       
@@ -113,7 +113,7 @@ changePrice();
    
        
        
-        <li class="clearfix">
+        <li class="clearfix" style="background-position: 0 -30px;">
        
        
        
@@ -147,7 +147,7 @@ changePrice();
         
         
         <!-- {if $cfg.show_goodsweight} 商品重量-->
-       <li class="clearfix">
+       <li class="clearfix" style="background-position: 0 -60px;">
        <dd>
        
        <strong>{$lang.goods_weight}</strong>{$goods.goods_weight}
@@ -171,7 +171,7 @@ changePrice();
     
       
       
-           <li class="clearfix"><dd><div class=" ">
+           <li class="clearfix" style="background-position: 0 -90px;"><dd><div class=" ">
 <!--{if $goods.is_promote and $goods.gmt_end_time } 促銷-->
 {insert_scripts files='lefttime.js'}
 <strong>{$lang.promote_price}</strong><font class="shop">{$goods.promote_price}</font> <!--{else}-->
@@ -223,7 +223,7 @@ changePrice();
       
     
     
-     <li class="clearfix">
+     <li class="clearfix" style="background-position: 0 -120px;">
       <dd  >
        <strong>{$lang.goods_rank}</strong>
       <img src="images/stars{$goods.comment_rank}.gif" alt="comment rank {$goods.comment_rank}" />  <a href="#">（已有<font id="print">123</font>條評論）</a>
@@ -242,7 +242,7 @@ changePrice();
       
    
        <!-- {foreach from=$rank_prices item=rank_price key=key} 會員等級對應的價格-->
-         <li class="clearfix">
+         <li class="clearfix" style="background-position: 0 -150px;">
        <dd><strong>{$rank_price.rank_name}：</strong><font class="shop" id="ECS_RANKPRICE_{$key}">{$rank_price.price}</font>
        </dd>
        </li>
@@ -357,8 +357,11 @@ changePrice();
       
           <div class="blank"></div>   
      
-      <a style=" margin:0 12px 0 0;" href="javascript:addToCart({$goods.goods_id})"><img src="images/bnt_cat.gif" /></a>
-      <a style=" margin:0 8px;"  href="javascript:collect({$goods.goods_id})"> <img src="images/bnt_cat2.gif" /></a>
+      <a class="btn_dark" href="javascript:addToCart({$goods.goods_id})"><span class="img_wrap wh30 icon_follow_wh30 mgr"></span>加入購物車 </a>
+      <a class="btn_dark" href="javascript:collect({$goods.goods_id})"><span class="img_wrap wh30 icon_follow_wh30 mgr"></span>收藏</a>
+      
+
+
       
       
          

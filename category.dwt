@@ -53,8 +53,8 @@
   </div>
 
         
-      
-  <div  id="category_tree_index" class="   box  clearfix">
+      <img src="images/abc.gif" width=970 height=79 border=0 alt="abc.gif">  
+  <div  id="category_tree_index" class="   box  clearfix"  style="display:none">
 
         
       <?php

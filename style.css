@@ -1018,7 +1018,7 @@ box-shadow: 0 0 0 0px #fff,
    /* ====================
      商品详情页面部分模块
 ==================== */
-   #goodsInfo{ background-color: rgba(255,255,255,0.5); border:1px solid #b6b6b6; padding:6px;
+   #goodsInfo{ background-color: rgba(255,255,255,1); border:1px solid #b6b6b6; padding:6px;
    border: px dashed #666;
    border-radius: 10px;
    box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
@@ -1077,18 +1077,24 @@ box-shadow: 0 0 0 0px #fff,
    #goodsInfo .textInfo{font-family: isosoman; 
     font-size:1.2em; width:680px;
      float:right; color:#666; overflow:hidden;
-     box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
+     padding-left:15px;
+     
 }
       }
    #goodsInfo .textInfo p{font-size:18px;  padding:0 5px 5px 8px; font-weight:bold}
    #goodsInfo .textInfo ul{ border-top:1px solid #ccc; padding-left:10px;
     border-top: 1px solid #ccc;}
    #goodsInfo .textInfo li{padding:0px; _height:1%; height:32px; line-height:32px; 
-   background: url(images/lineBg.gif) repeat-x left bottom; }
+   background: url(images/lineBg.gif) repeat-x left bottom; 
+ background: url("http://www.citytalk.tw/img/ct/site/v2/common/icon_eventinfo_icon.png") no-repeat;
+padding-left: 6px;
+
+}
    #goodsInfo .textInfo strong{ font-weight:normal}
    #goodsInfo .textInfo .shop{    color:#cc0000; font-size:26px; font-family:"微軟正黑"; vertical-align:middle; font-weight:600;} 
    #goodsInfo .textInfo li.padd{padding:7px 0px 7px 0; }
-   #goodsInfo .textInfo li dd{width:100%; float:left; padding:0px 0px;}
+   #goodsInfo .textInfo li dd{width:100%; float:left; padding:0px 0px;padding-left: 35px;
+}
    #goodsInfo .textInfo li dd.ddR{border-left:1px solid #eeecec; width:48%; padding-left:8px;}
    
      #goodsInfo .textInfo li .dd_l{ float:left; width:220px;  }
@@ -1104,7 +1110,7 @@ box-shadow: 0 0 0 0px #fff,
   #goodsInfo .textInfo  .btn_bg{ width:70px; height:22px; background:url(images/btn_bg.gif); display:block; padding-left:25px; color:#333; text-decoration:none; float:left; margin:0 3px;}
    #goodsInfo .textInfo  .btn_bg:hover{ color:#f5811d}
   
-   #goodsInfo .textInfo a{ color:#111111}
+   #goodsInfo .textInfo a{ color:#fff}
    
    
    
@@ -1786,5 +1792,29 @@ background-color: rgb(255, 0, 0);
 box-shadow: rgba(255, 255, 255, 0.0980392) 0px 1px 0px, rgba(0, 0, 0, 0.247059) 0px 1px 0px inset;
 }
 .tishi{
-  font-size: 1.6em; 
+  font-size: 1em; 
+}
+
+#goodsInfo  .textInfo .header{
+  background-color: #fdfdfd;
+background-image: -webkit-gradient(linear,center top,center bottom,color-stop(0%,#ffffff),color-stop(50%,#fdfdfd),color-stop(51%,#f7f7f7),color-stop(100%,#f3f3f3));
+background-image: -moz-linear-gradient(#ffffff 0%,#fdfdfd 50%,#f7f7f7 51%,#f3f3f3 100%);
+width: 100%;
+font-size: 130%;
+}
+
+
+
+.btn_dark {
+background-color: #ef68a4;
+background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#ef68a4),color-stop(100%,#ec328e));
+background-image: -moz-linear-gradient(top,#ef68a4 0%,#ec328e 100%);
+border: none;
+color: #fff;
+box-shadow: 0 1px 1px 0 rgba(255,255,255,0.4) inset, 1px 0 1px 0 rgba(255,255,255,0.2) inset;
+border: 1px solid #e75ba0;
+font-weight: bold;
+text-decoration: none;
+height: 60px;
+font-size: 1.2em;
 }
