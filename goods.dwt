@@ -88,7 +88,7 @@ changePrice();
      <!--商品圖片和相冊 end-->
      <div class="textInfo" style="">
      <form action="javascript:addToCart({$goods.goods_id})" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
-    <div class="header" style=" font-family:'微軟雅黑';  padding-left:10px; color:#000 ; border-bottom:1px solid #000;">
+    <div class="header" >
       {$goods.goods_style_name}
        </div>
       
@@ -113,46 +113,27 @@ changePrice();
    
        
        
-        <li class="clearfix" style="background-position: 0 -30px;">
+      <li class="clearfix" style="background-position: 0 -27px;">
        
-       
-       
-     
-        <!-- {if $cfg.show_marketprice} 市場價格-->
-       <dd>
-   
-     
-   
-        
-       <strong>市場價：</strong>{$goods.market_price} 
-    </dd>
-           
+      <!-- {if $cfg.show_marketprice} 市場價格-->
+        <dd>
+          <strong>市場價：</strong>{$goods.market_price} 
+        </dd>
+      </li>     
      <!-- {/if} -->
-      <dd>
+      <li class="clearfix" style="background-position: 0 -28px;">
+        <dd>
           <!-- {if $cfg.show_goodssn} 顯示商品貨號-->
-           <strong>{$lang.goods_sn}</strong>{$goods.goods_sn}
-       </dd>
+          <strong>{$lang.goods_sn}</strong>{$goods.goods_sn}
+        </dd>
          <!-- {/if} -->
-       
-       </li>   
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+      </li>   
         
         <!-- {if $cfg.show_goodsweight} 商品重量-->
-       <li class="clearfix" style="background-position: 0 -60px;">
-       <dd>
-       
-       <strong>{$lang.goods_weight}</strong>{$goods.goods_weight}
-       
-       </dd>
+      <li class="clearfix" style="background-position: 0 -60px;">
+        <dd> 
+          <strong>{$lang.goods_weight}</strong>{$goods.goods_weight}
+        </dd>
       </li>
       <!-- {/if} -->  
       
@@ -210,12 +191,13 @@ changePrice();
           {$goods.goods_number} {$goods.measure_unit}
         
         <!-- {/if} --> 
-               
+           <!--    
           <select name="11">
           <option>上海發貨</option>
           <option>北京發貨</option>
           <option>廣東發貨</option>
-        </select>   
+        </select>
+        -->   
     </dd>
       </li>
       
@@ -328,8 +310,7 @@ changePrice();
       </li>
       <!-- {/foreach} -->
       <!-- {* 結束循環可選屬性 *} -->
-      
-      <li  >
+      <li class="clearfix" style="background-position: 0 -90px;">
        <dd>
        <strong>{$lang.number}：</strong>
        
@@ -345,41 +326,21 @@ changePrice();
        
       
       
-        <li style="padding:5px 0 10px 0">
+       <li class="clearfix" style="background-position: 0 -120px;">
           <dd>
-      
       已售出：<b class="price_all">{insert name='goods_sells' goods_id=$id}</b> 件 
-      
-      
+      <a class="btn_dark" style="float:right" href="javascript:addToCart({$goods.goods_id})"><span class="lsf-icon" title="cart" s>加入購物車 </span><span class="lsf-icon" title="cart" s></span></a>
       </dd>
+    </li>
+     <div class="blank"></div>  
+    <li class="clearfix" style="background-position: 0 -330px;">
        <dd>
-      
-      
-          <div class="blank"></div>   
-     
-      <a class="btn_dark" href="javascript:addToCart({$goods.goods_id})"><span class="img_wrap wh30 icon_follow_wh30 mgr"></span>加入購物車 </a>
-      <a class="btn_dark" href="javascript:collect({$goods.goods_id})"><span class="img_wrap wh30 icon_follow_wh30 mgr"></span>收藏</a>
-      
-
-
-      
-      
-         
        
        </dd>
        </li>
+     
       
- 
-    
-    
-    
-        <li>
-       
-       </li>
-      
-      
-      
-      
+  
        </div>
  
         

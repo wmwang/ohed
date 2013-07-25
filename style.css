@@ -16,6 +16,8 @@ Logo filename: logo.gif
   font-family:isosoman;
   src:url("DFZongYiStd-W5001.otf") format("opentype"); 
 }
+
+
 body{ 
 background-attachment: fixed;
   background-repeat: repeat;
@@ -110,7 +112,7 @@ visibility:hidden;
    border-radius: 0px;
    box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
   }
-  .box_1{border:0px solid rgba(0, 0, 0, 0.6); background-color: rgba(255, 255, 255, 0.6);
+  .box_1{border:0px solid rgba(0, 0, 0, 0.6); background-color:#fff;
    border-radius: 0px;
   box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
   }
@@ -724,7 +726,7 @@ box-shadow: 0 0 0 0px #fff,
    -2px -2px 6px 4px rgba(10, 10, 0, 0.5);}
    .helpTitBg .clearfix{ padding: 0px 0 0 0px;
    }
-   .helpTitBg dl{float:left; width:134px; border-left:1px solid #b4b4b4; padding:20px 10px;}
+   .helpTitBg dl{float:left; width:156px; border-left:1px solid #b4b4b4; padding-left: -2em;}
    .helpTitBg dt{width:auto; height:31px; line-height:31px;  text-align:left;
    color:#636363; padding-left:30px;  }
    
@@ -739,10 +741,11 @@ box-shadow: 0 0 0 0px #fff,
    .helpTitBg dd a{  display:block; height:24px; 
     line-height:24px;  text-decoration:none; padding:0px 0px 0px 32px;
     color: #fff;
+    font-size: 0.8em;
   }
 
 
-.helpTitBg dt{font-size:1.2em ;font-weight:bolder; color:#111111; text-decoration:none}
+.helpTitBg dt{font-size:0.9em ;font-weight:bolder; color:#111111; text-decoration:none}
 
 
 
@@ -1018,7 +1021,7 @@ box-shadow: 0 0 0 0px #fff,
    /* ====================
      商品详情页面部分模块
 ==================== */
-   #goodsInfo{ background-color: rgba(255,255,255,1); border:1px solid #b6b6b6; padding:6px;
+   #goodsInfo{ background-color: #fff; border:1px solid #b6b6b6; padding:6px;
    border: px dashed #666;
    border-radius: 10px;
    box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
@@ -1074,7 +1077,7 @@ box-shadow: 0 0 0 0px #fff,
    
    
    
-   #goodsInfo .textInfo{font-family: isosoman; 
+   #goodsInfo .textInfo{font-family: 微軟正黑體; 
     font-size:1.2em; width:680px;
      float:right; color:#666; overflow:hidden;
      padding-left:15px;
@@ -1086,7 +1089,7 @@ box-shadow: 0 0 0 0px #fff,
     border-top: 1px solid #ccc;}
    #goodsInfo .textInfo li{padding:0px; _height:1%; height:32px; line-height:32px; 
    background: url(images/lineBg.gif) repeat-x left bottom; 
- background: url("http://www.citytalk.tw/img/ct/site/v2/common/icon_eventinfo_icon.png") no-repeat;
+ background: url("images/icon_eventinfo_icon.png") no-repeat;
 padding-left: 6px;
 
 }
@@ -1476,7 +1479,7 @@ padding-left: 6px;
    border-radius: 10px;
    box-shadow: 0 0 0 4px #111111, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);}
    #footer img{ padding-right:20px; }
-   #footer .text{ float:left; padding-top:10px;font-size: 1.6em;
+   #footer .text{ float:left; font-size: 100%;
     font-weight: bolder;
     color: #111111}
    #footer .text img{ padding:0;}
@@ -1801,6 +1804,10 @@ background-image: -webkit-gradient(linear,center top,center bottom,color-stop(0%
 background-image: -moz-linear-gradient(#ffffff 0%,#fdfdfd 50%,#f7f7f7 51%,#f3f3f3 100%);
 width: 100%;
 font-size: 130%;
+font-family:微軟正黑體;  
+font-weight: bolder;
+padding-left:10px; color:#000 ;
+ border-bottom:1px solid #000;
 }
 
 
@@ -1815,6 +1822,70 @@ box-shadow: 0 1px 1px 0 rgba(255,255,255,0.4) inset, 1px 0 1px 0 rgba(255,255,25
 border: 1px solid #e75ba0;
 font-weight: bold;
 text-decoration: none;
-height: 60px;
 font-size: 1.2em;
+}
+@font-face {
+    font-family: 'LigatureSymbols';
+    src: url('fonts/LigatureSymbols-2.11.eot');
+    src: url('fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LigatureSymbols-2.11.woff') format('woff'),
+         url('fonts/LigatureSymbols-2.11.ttf') format('truetype'),
+         url('fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+    src: url('fonts/LigatureSymbols-2.11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LigatureSymbols';
+    src: url('LigatureSymbols-2.11.eot');
+    src: url('LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+         url('LigatureSymbols-2.11.woff') format('woff'),
+         url('LigatureSymbols-2.11.ttf') format('truetype'),
+         url('LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+    src: url('LigatureSymbols-2.11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lsf, .lsf-icon:before {
+  font-family: 'LigatureSymbols';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.lsf-icon:before {
+  content:attr(title);
+  margin-right:0.3em;
+  font-size:130%;
+}
+
+.lsf-icon.amazon:before {
+  content: '\E007';
+}
+.lsf-icon.g1:before {
+  content: '\E070';
+}
+.lsf-icon.g2:before {
+  content: '\E078';
+}
+.lsf-icon.g3:before {
+  content: '\E105';
+}
+.lsf-icon.g4:before {
+  content: '\E16a';
+}
+.lsf-icon.g5:before {
+  content: '\E08d';
+}
+.lsf-icon.g6:before {
+  content: '\E08a';
 }

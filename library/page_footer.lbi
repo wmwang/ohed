@@ -10,7 +10,7 @@
    <div class="clearfix">
 <!-- {foreach from=$helps item=help_cat name=no} -->
 <dl>
-  <dt class="dt{$smarty.foreach.no.iteration}">{$help_cat.cat_name}</dt>
+  <dt class=" lsf-icon g{$smarty.foreach.no.iteration}">{$help_cat.cat_name}</dt>
   <!-- {foreach from=$help_cat.article item=item} -->
   <dd><a  href="help.php?id={$item.article_id}" title="{$item.title|escape:html}">{$item.short_title}</a></dd>
   <!-- {/foreach} -->

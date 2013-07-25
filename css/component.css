@@ -31,7 +31,7 @@
 .cbp-ig-grid li {
 	width: 33%;
 	float: left;
-	height: 420px;
+	height: 360px;
 	text-align: center;
 	border-top: 1px solid #ddd;
 }
@@ -57,12 +57,14 @@
 }
 
 .cbp-ig-grid li > a img{
-	height: 10em;	
+	width: 150px;
+	height: 150px;
+		
 	}
 
 /* the icon with pseudo class for icon font */
 .cbp-ig-icon {
-	padding: 30px 0 0 0;
+	padding: 0px 0 0 0;
 	display: block;
 	-webkit-transition: -webkit-transform 0.2s;
 	transition: -moz-transform 0.2s;
@@ -109,11 +111,12 @@
 .cbp-ig-grid .cbp-ig-title {
 	margin: 20px 0 10px 0;
 	padding: 20px 0 0 0;
-	font-size: 2em;
+	font-size: 116%;
 	position: relative;
 	-webkit-transition: -webkit-transform 0.2s;
 	-moz-transition: -moz-transform 0.2s;
 	transition: transform 0.2s;
+	font-family: 微軟正黑體;
 }
 
 .cbp-ig-grid .cbp-ig-title:before {
