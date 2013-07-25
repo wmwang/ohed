@@ -12,10 +12,6 @@ Logo filename: logo.gif
 /* ====================
      公共样式
 ==================== */
-@font-face {
-  font-family:isosoman;
-  src:url("DFZongYiStd-W5001.otf") format("opentype"); 
-}
 
 
 body{ 
