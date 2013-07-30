@@ -118,7 +118,7 @@ visibility:hidden;
   
    .box_3{padding-bottom:0px;padding-top: 0px;  
     border:1px solid #fff;
-   background-color: rgba(28,17,3,0.852941); border-top:3px solid #FFF;
+   background-color: #000; border-top:3px solid #FFF;
     height: 2.6em;
    }
   
@@ -222,9 +222,13 @@ h3.h3_2 span {   font-size: 14px; font-weight: bold;height: 31px; line-height: 3
 
 .gundong_box{ 
   font-size: 0.7em;
+
   border:0px solid #FFF; border-top:0px  dashed #111111;
    background:#FFFFFF; float:left; position:relative  ;
  box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);}
+.gundong_box.box{width: 266px;
+
+}
 .gundong_box .tit span{ float:left}
 
 .gundong_box .tit { text-align:right; height:27px; line-height:27px; border-bottom:1px solid #b4b4b4; padding:0 10px;}
@@ -312,7 +316,7 @@ background-color: transparent;
   
   
   /*页面主导航*/
-  .meun_bg{ height:26x; background-color: rgba(226, 156, 15,0.86); border-bottom:3px solid #d6dcda;
+  .meun_bg{ height:26x; background-color: rgba(255, 255, 255,0.1); border-bottom:3px solid #d6dcda;
    /*20130617我讓主導行有虛線了耶!!!*/ 
    border-bottom: 5px dashed #000000;
    padding-top: 15px;
@@ -419,10 +423,11 @@ background-color: transparent;
   
   
   
-  #category_tree_index{ background-color: rgba(28,17,3,0.852941); 
+  #category_tree_index{ 
     width:710px;  ;
    border-radius: 0px;
    border-top: 3px solid #000;
+   box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
    }
   #category_tree_index ul{color: #000; border-top:3px solid #000; }
   
@@ -509,7 +514,7 @@ box-shadow: 0 0 0 0px #fff,
 .remai_box .goodsItem a{color:#333;}
 .remai_box .goodsItem p{ padding:0; padding-top:8px;}
 .remai_box .goodsItem .f1{ font-size:1em;} 
-.remai_box .goodsItem ul{ float:left; width:120px; padding-left:5px; text-align:left}
+.remai_box .goodsItem ul{ float:left; width:160px; padding-left:5px; text-align:left}
 .remai_box .f_r{ 
   width:160px; padding:0 10px; border-left:1px solid #e3e3e3;
    height:13em;}
@@ -523,7 +528,7 @@ box-shadow: 0 0 0 0px #fff,
     padding: 0 0.6em;
     text-align: center;
     text-decoration: none;
-    font: bold 1.5em Arial, sans-serif;
+    font: bold 1em Arial, sans-serif;
  
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -716,7 +721,7 @@ box-shadow: 0 0 0 0px #fff,
    /*帮助*/
   .helpTitBg{ border:0px solid #FFF; padding:1em;
   border-radius: 0px;
-   background-color:rgba(35,175,112,0.6);
+   background-color:#fff;
    box-shadow: 0 0 0 0px #fff, 
       2px 2px 6px 4px rgba(10, 10, 0, 0.5), 
    -2px -2px 6px 4px rgba(10, 10, 0, 0.5);}
@@ -736,7 +741,7 @@ box-shadow: 0 0 0 0px #fff,
  
    .helpTitBg dd a{  display:block; height:24px; 
     line-height:24px;  text-decoration:none; padding:0px 0px 0px 32px;
-    color: #fff;
+    color: #ed4093;
     font-size: 0.8em;
   }
 
@@ -1679,7 +1684,7 @@ padding-left: 6px;
 	}
 
  
-	.h3_2{ height:3.6em;line-height:2em; color:#333;   
+	.h3_2{ height:2.6em;line-height:2em; color:#333;   
     padding:0; }
  
 	

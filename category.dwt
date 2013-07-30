@@ -32,7 +32,7 @@
 
 
 
-  <div class="AreaR" style="float:left;min-width:1024px">
+  <div class="AreaR" style="float:left;min-width:983px">
    
    
    
@@ -144,7 +144,7 @@
         <!--{/foreach}-->
    </ul> 
    </div> 	 
-  		<div class="blank"></div>	 
+  		 
   	  <!-- {/if} -->
   	 <!--组合搜索 结束-->
        

@@ -48,13 +48,13 @@
 -->
 </div>
 
-<div class="blank"></div>
+
 
 <!--底部導航 start-->
  
    
 
-<div class="blank"></div>
+
 <!--版權 start-->
 <div id="footer">
 
@@ -133,9 +133,7 @@
 </div>
 
  </div>
- <div class="blank"></div>
- <div class="blank"></div>
- <div class="blank"></div>
+
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/themes/ohed/js/jquery.cbpContentSlider.min.js"></script>
     <script>

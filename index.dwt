@@ -56,37 +56,47 @@ function reg(str){
  
 
 <div class="f_l" >
- <img src="images/gg.gif" width=710 height=79 border=0 alt="gg.gif">
+ 
 
     <!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
  
- 
+  <img src="images/gg.gif" width=710 height=79 border=0 alt="gg.gif">
    <!-- #BeginLibraryItem "/library/index_tree.lbi" --><!-- #EndLibraryItem -->
  
-  
+ 
 </div> 
 <div class="f_r_down" style="; _overflow:hidden">
  
  
 
- 
 <div class="gonggao_box box_1"> 
 
 <div class="ff_1 ">
-    <h2 id="ECS_tree1" class=" tabFront" style=" border-right:1px solid #d5d5d5; width:119px;  ">最新動態</h2>
-    <h2 id="ECS_tree2" class=" tabBack" style=" ">調價公告</h2>
+    <h2 id="ECS_tree1" class=" tabFront" style=" border-right:1px solid #d5d5d5; width:119px;  ">寶新快訊</h2>
 </div>   
-<div style="clear:both"></div>
-<div id="ECS_tree1_BODY" style="">
-<!-- TemplateBeginEditable name="最新动态" -->
+<div class="content-div" id="ECS_NOTICE_BODY">
+  {$shop_notice}
+</div>
+
+</div>
+<div class="gonggao_box box_1"> 
+
+<div class="ff_1 ">
+    <h2 id="ECS_tree1" class=" tabFront" style=" border-right:1px solid #d5d5d5; width:119px;  ">最新动态</h2>
+</div>   
+<div id="ECS_tree1_BODY" style=""> 
+  <div class="boxCenterList art  " style="padding:0;">
+  <!--{foreach from=$articles item=article_item name=no}-->
+  <a   <!-- {if $smarty.foreach.no.iteration<2}--> style="border:none" <!-- {/if} -->    href="{$article_item.url}" title="{$article_item.title|escape:html}">{$article_item.short_title}</a> 
+  <!--{/foreach}-->
+  </div>
+ 
+ <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable -->
 </div>
-<div   id="ECS_tree2_BODY" style="display:none;">
-<!-- TemplateBeginEditable name="调价公告" -->
-<!-- TemplateEndEditable -->
 </div>
-</div>
-<div class="blank"></div>
+
+
 <script type="text/javascript">
 //<![CDATA[
 {literal}
@@ -142,7 +152,7 @@ function reg(str){
  
  
 
-<div class="blank"></div>
+
 
 
 
@@ -151,7 +161,7 @@ function reg(str){
 
  
 
-<div class="blank"></div>
+
 
 
 
@@ -171,43 +181,10 @@ function reg(str){
 
 </div> 
 
-<div class="blank"></div>
-
-
-
-<div class="bottom_txt clearfix">
-
-<ul style="border-right:1px solid #b4b4b4">
-
-<li class="f_l">
-<!-- TemplateBeginEditable name="底部广告一" -->
-<!-- TemplateEndEditable -->
-</li>
-<li class="f_r">
-<!-- TemplateBeginEditable name="底部文章一" -->
-<!-- TemplateEndEditable -->
-</li>
 
 
 
 
-</ul>
-
-
-<ul>
- 
-<li class="f_l">
-<!-- TemplateBeginEditable name="底部广告二" -->
-<!-- TemplateEndEditable -->
-</li>
-<li class="f_r">
-<!-- TemplateBeginEditable name="底部文章二" -->
-<!-- TemplateEndEditable -->
-</li>
-
-</ul>
-
-</div> 
 
 
     
