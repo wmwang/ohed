@@ -261,9 +261,10 @@ buyNumber{$smarty.foreach.no.iteration}.goodNumber(num);
           
           
              <p class="cbp-ig-title">{$goods.goods_style_name}</p>
-             <span style="background: #ea4c89; color: #FFF;">現正優惠9折起免運費</span>
+             <span style="background: #ea4c89; color: #FFF;">現正優惠9折起免運費</span>&nbsp<span style="background: #81b71a; color: #FFF;">快點來買</span>&nbsp<span style="background: #ea4c89; color: #FFF;">哈哈ㄏ齁齁</span>
              <br>
-             <span style="background: #81b71a; color: #FFF;">買到絕對賺到</span>
+             <br>
+             <span style="background: #81b71a; color: #FFF;">買到絕對賺到</span>&nbsp<span style="background: #ea4c89; color: #FFF;">買到絕對賺到</span>&nbsp<span style="background: #81b71a; color: #FFF;">買到絕對賺到</span>
                <!-- {if $show_marketprice} -->
            
           <!-- {/if} -->
