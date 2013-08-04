@@ -25,8 +25,9 @@
 
   <div class="block clearfix">
   <script type="text/javascript" src="themes/ohed/js/left_goodslist.js"></script>
+  <!--
   <!-- #BeginLibraryItem "/library/cate_best.lbi" --><!-- #EndLibraryItem -->
-
+-->
 
 
 
@@ -40,12 +41,13 @@
   	 <!--组合搜索 开始-->
   	  <!--{if $brands.1 || $price_grade.1 || $filter_attr_list}-->
         
-        
+     <!--    
   <div   style=" height:2em; line-height:2em; text-align:right; border-bottom:3px solid rgba(242, 222, 193, 0.452941)">
    
-            <div class="btn btn-large btn-block btn-dangerForIndexTree">商品分類中心
+           <div class="btn btn-large btn-block btn-danger">商品分類中心
             </div>
-          </div>       
+
+          </div>        -->
          <!--
   
   <div class="clearfix" style="margin-top:-1.6em; line-height:22px">

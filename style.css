@@ -108,7 +108,7 @@ visibility:hidden;
    border-radius: 0px;
    box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
   }
-  .box_1{border:0px solid rgba(0, 0, 0, 0.6); background-color:#fff;
+  .box_1{border:0px solid #ed4093; background-color:#fff;
    border-radius: 0px;
   box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
   }
@@ -281,6 +281,7 @@ background-color: transparent;
  box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);}
   .AreaR{width:720px; float:right; overflow:hidden;
   border-radius: 5px;
+  border: 5px solid #ed4093;
   background-color: rgba(255,255,255,0.852941);
   box-shadow: 0 0 0 0px #fff, 
   2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);}
@@ -306,9 +307,9 @@ background-color: transparent;
   /*顶部管理型导航*/
    
    
-  .top_nav{ height:31px; line-height:31px; background:url(images/top_line.gif) 0 0 repeat-x}
+  .top_nav{ height:31px; line-height:31px; }
   .top_nav .f_r{ float:right; padding:0 20px; padding-right:120px; height:28px; line-height:28px; _padding-top:5px; _height:23px; 
-    background: #2C3E50; border-bottom:3px solid #d6dcda}
+    background: #2C3E50; }
   .top_nav a{ color:#16a085;font-size: 0.8em}
   .top_nav img{ vertical-align:middle; padding:0 6px;}
    .top_nav .block{ position: relative} 
@@ -1023,7 +1024,7 @@ box-shadow: 0 0 0 0px #fff,
      商品详情页面部分模块
 ==================== */
    #goodsInfo{ background-color: #fff; border:1px solid #b6b6b6; padding:6px;
-   border: px dashed #666;
+   border: 5px solid #ed4093;
    border-radius: 10px;
    box-shadow: 0 0 0 0px #fff, 2px 2px 6px 4px rgba(10, 10, 0, 0.5), -2px -2px 6px 4px rgba(10, 10, 0, 0.5);
    text-shadow: -0px -0px #fff;
@@ -1097,7 +1098,7 @@ padding-left: 6px;
    #goodsInfo .textInfo strong{ font-weight:normal}
    #goodsInfo .textInfo .shop{    color:#cc0000; font-size:26px; font-family:"微軟正黑"; vertical-align:middle; font-weight:600;} 
    #goodsInfo .textInfo li.padd{padding:7px 0px 7px 0; }
-   #goodsInfo .textInfo li dd{width:100%; float:left; padding:0px 0px;padding-left: 35px;
+   #goodsInfo .textInfo li dd{width:100%; float:left; padding:0px 0px;padding-left: 28px; padding-top: 7px;
 }
    #goodsInfo .textInfo li dd.ddR{border-left:1px solid #eeecec; width:48%; padding-left:8px;}
    
@@ -1808,23 +1809,12 @@ font-size: 130%;
 font-family:微軟正黑體;  
 font-weight: bolder;
 padding-left:10px; color:#000 ;
- border-bottom:1px solid #000;
+ border:4px dotted  #ed4093;
 }
 
 
 
-.btn_dark {
-background-color: #ef68a4;
-background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#ef68a4),color-stop(100%,#ec328e));
-background-image: -moz-linear-gradient(top,#ef68a4 0%,#ec328e 100%);
-border: none;
-color: #fff;
-box-shadow: 0 1px 1px 0 rgba(255,255,255,0.4) inset, 1px 0 1px 0 rgba(255,255,255,0.2) inset;
-border: 1px solid #e75ba0;
-font-weight: bold;
-text-decoration: none;
-font-size: 1.2em;
-}
+
 @font-face {
     font-family: 'LigatureSymbols';
     src: url('fonts/LigatureSymbols-2.11.eot');

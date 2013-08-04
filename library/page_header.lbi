@@ -13,6 +13,8 @@
 <SCRIPT type=text/javascript src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/transport.js"></SCRIPT>
 <link rel="stylesheet" type="text/css" href="themes/ohed/css/default.css" />
 <link rel="stylesheet" type="text/css" href="themes/ohed/css/component.css" />
+<link href="themes/ohed/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="themes/ohed/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
 <script src="themes/ohed/js/modernizr.custom.js"></script>
  
 

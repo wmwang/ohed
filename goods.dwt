@@ -329,7 +329,7 @@ changePrice();
        <li class="clearfix" style="background-position: 0 -120px;">
           <dd>
       已售出：<b class="price_all">{insert name='goods_sells' goods_id=$id}</b> 件 
-      <a class="btn_dark" style="float:right" href="javascript:addToCart({$goods.goods_id})"><span class="lsf-icon" title="cart" s>加入購物車 </span><span class="lsf-icon" title="cart" s></span></a>
+      <a class="btn btn-success" style="float:right; font-size:2em; line-height:2em" href="javascript:addToCart({$goods.goods_id})"><span class="lsf-icon" title="cart" s>加入購物車 </span><span class="lsf-icon" title="cart" s></span></a>
       </dd>
     </li>
      <div class="blank"></div>  
@@ -510,7 +510,9 @@ changePrice();
   
   <!-- TemplateBeginEditable name="底部區域" -->
   <!-- #BeginLibraryItem "/library/goods_related.lbi" --><!-- #EndLibraryItem -->
+  <!--
   <!-- #BeginLibraryItem "/library/bought_goods.lbi" --><!-- #EndLibraryItem -->
+-->
   <!-- TemplateEndEditable -->
   
   
